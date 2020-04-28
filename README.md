@@ -8,10 +8,10 @@ Though the interface is simple, students will be introduced to a handful of new 
 * Find which endpoint to hit
 * Look at a sample response (JSON)
 * Based off the JSON, determine how to structure your model
-
+    
 All data/images presented in the DeckOfOneCard app are retrieved from deckofcardsapi.com. In other words, your app is the front end and the server is the back end.
 
-Because your app depends on continuous communication with the server, it's important to understand two things.
+Because your app depends on continuous communication     with the server, it's important to understand two things.
 - How to talk to the server (which endpoint to hit).
 - How to decode the response (the JSON).
 
@@ -60,7 +60,7 @@ static func fetchCard(completion: @escaping (Result <Card, CardError>) -> Void) 
     
     // 2 - Contact server
     
-    // 3 - Handle errors from the server
+    // 3 - Handle    errors from the server
     
     // 4 - Check for json data
     
